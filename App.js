@@ -7,10 +7,12 @@ import {
   View,
   Platform,
   TouchableOpacity,
+  Image,
 } from 'react-native';
 import Header from './src/components/Header';
 import { Timer } from './src/components/Timer';
 import { Audio } from 'expo-av';
+import Tomato from './assets/tomato.png';
 
 const TIMES = {
   POMO: 25 * 60,
@@ -76,8 +78,12 @@ export default function App() {
           flex: 1,
           paddingHorizontal: 15,
           paddingTop: Platform.OS === 'android' && 30,
+
+          position: 'relative',
         }}
       >
+        <Image source={Tomato} style={styles.tomatoIcon} />
+
         <Text style={styles.text}>Pomodoro</Text>
 
         <Header
@@ -115,5 +121,12 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     alignItems: 'center',
     marginTop: 20,
+  },
+  tomatoIcon: {
+    position: 'absolute',
+    height: 60,
+    width: 80,
+    top: 20,
+    right: 20,
   },
 });
