@@ -22,6 +22,7 @@ Incluye tres modos de temporizador:
 - Cambio automático de segundos en tiempo real.
 - Interfaz simple y minimalista.
 - Botones para cambiar entre **Pomodoro**, **Short Break** y **Long Break**.
+- Sonido de Click al momento comenzar el conteo o de pararlo.
 
 ---
 ## 📸 Demo
