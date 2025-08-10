@@ -24,7 +24,10 @@ Incluye tres modos de temporizador:
 - Botones para cambiar entre **Pomodoro**, **Short Break** y **Long Break**.
 
 ---
+## 📸 Demo
+![Pomodoro Demo](./assets/Pomodoro.gif)
 
+---
 
 ## 🛠️ Tecnologías utilizadas
 - **React Native** — Framework para desarrollo móvil.
